@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: lesson6.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.021 s <<< FAILURE! - in lesson6.LoginTest
+loginTest  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException
+	at lesson6.LoginTest.setupBrowser(LoginTest.java:17)
+

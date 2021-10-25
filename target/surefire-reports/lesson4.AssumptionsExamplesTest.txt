@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: lesson4.AssumptionsExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in lesson4.AssumptionsExamplesTest
+softAssertionsTest  Time elapsed: 0.034 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at lesson4.AssumptionsExamplesTest.softAssertionsTest(AssumptionsExamplesTest.java:18)
+
+trueAssumption  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at lesson4.AssumptionsExamplesTest.trueAssumption(AssumptionsExamplesTest.java:12)
+
